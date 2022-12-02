@@ -1,4 +1,3 @@
-1st Jenkinsfile
 pipeline{
     agent any
     stages {
