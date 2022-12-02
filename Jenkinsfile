@@ -18,6 +18,7 @@ pipeline{
             steps{
                 sh 'echo "walk..."'
                 sh 'cat /etc/passwd | grep ubuntu'
+                sh 'free -g'
             }
         } 
         stage ('4-cross the street'){
